@@ -1,0 +1,6 @@
+.p1 {
+    width: 1000px;
+    height: 100px;
+    background-color: blue;
+    object-fit: scale-down;
+}

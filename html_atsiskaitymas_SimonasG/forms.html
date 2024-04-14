@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="./home.html"><img src="./img/logo.png"/></a>
+        <div><a href="./login.html">Log In</a></div>
+        <nav>
+            <a href="home.html#keliones">Kelionių pasiūlymai</a>
+            <a href="home.html#patarimai">Patarimai ir rekomendacijos</a>
+            <a href="home.html#auto">Autonuomos pasiūlymai</a>
+            <a href="home.html#zurnalas">Kelionių žurnalas</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Užklausa</h1>
+        <form method="submit" action="./home.html">
+            <fieldset>
+                <label for="vardas">Vardas</label>
+                <input type="text" name="vardas" id="vardas" required/>
+            </fieldset>
+            <fieldset>
+                <label for="email">El. Paštas</label>
+                <input type="email" name="email" id="email" required/>
+            </fieldset>
+            <fieldset>
+                <label for="tel">Telefono numeris</label>
+                <input type="number" name="tel" id="tel" required/>
+            </fieldset>
+            <fieldset>
+                <label>Pasirinkite miestą</label>
+                    <select name="miestas" id="miestas-select">
+                        <optgroup label="miestas" required>
+                            <option value="klaipeda">Klaipėda</option>
+                            <option value="vilnius">Vilnius</option>
+                            <option value="kaunas">Kaunas</option>
+                        </optgroup>
+                        <optgroup label="miestas" required>
+                            <option value="klaipeda">Klaipėda</option>
+                            <option value="vilnius">Vilnius</option>
+                            <option value="kaunas">Kaunas</option>
+                        </optgroup>
+            </fieldset>
+            <fieldset>
+                <label for="data">Data</label>
+                <input type="date" name="data" id="data" required/>
+            </fieldset>
+            <fieldset>
+                <legend>Pasirinkite mėgstamą sportą</legend>
+            <div>
+                <input type="checkbox" id="krepsinis" name="krepsinis"/>
+                <label for="krepsinis">Krepšinis</label>
+            </div>
+            <div>
+                <input type="checkbox" id="futbolas" name="futbolas"/>
+                <label for="futbolas">Futbolas</label>
+            </div>
+            <div>
+                <input type="checkbox" id="tinklinis" name="tinklinis"/>
+                <label for="tinklinis">Tinklinis</label>
+            </div>
+            <div>
+                <input type="checkbox" id="regbis" name="regbis"/>
+                <label for="regbis">Regbis</label>
+            </div>
+            </fieldset>
+            <fieldset>
+                <legend>Pasirinkite vaisių</legend>
+
+                <input type="radio" id="obuolys" name="vaisius" value="O" required/>
+                <label for="obuolys">Obuolys</label>
+
+                <input type="radio" id="kriause" name="vaisius" value="K"/>
+                <label for="kriause">Kriaušė</label>
+
+                <input type="radio" id="slyva" name="vaisius" value="S"/>
+                <label for="slyva">Slyva</label>
+
+                <input type="radio" id="apelsinas" name="vaisius" value="A"/>
+                <label for="apelsinas">Apelsinas</label>
+            </fieldset>
+            <fieldset>
+                <label for="tekstas">Įveskite tekstą</label>
+                <textarea name="tekstas" id="tekstas" cols="30" rows="10" required></textarea>
+            </fieldset>
+            <fieldset>
+                <button type="submit">Home</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <a href="tel:37061234567">37061234567</a>
+        <div><address>Kažkur <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14092.755122760378!2d86.92497509999998!3d27.988120149999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e854a215bd9ebd%3A0x576dcf806abbab2!2sD%C5%BEomolungma!5e0!3m2!1slt!2sht!4v1708522048221!5m2!1slt!2sht" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></address></div>
+        <div>&copy;Simono</div>
+    </footer>
+</body>
+</html>

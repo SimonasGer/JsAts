@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="email">Įveskite el. paštą</label>
+            <input type="text" name="email" id="email"/>
+        </fieldset>
+        <fieldset>
+            <label for="password">Įveskite slaptažodį</label>
+            <input type="password" name="password" id="password"/>
+        </fieldset>
+        <fieldset>
+            <label for="password2">Pakartokite slaptažodį</label>
+            <input type="password" name="password2" id="password2"/>
+        </fieldset>
+        <fieldset>
+            <legend>Lytis</legend>
+
+            <input type="radio" id="vyras" name="vyras" value="V"/>
+            <label for="vyras">Vyras</label>
+            <input type="radio" id="moteris" name="moteris" value="M"/>
+            <label for="moteris">Moteris</label>
+        </fieldset>
+        <fieldset>
+            <label>Pasirinkite gyvenamąją šalį</label>
+
+            <select name="salys" id="salys-select">
+                <option value="">Pasirinkite gyvenamąją šalį</option>
+                <option value="lietuva">Lietuva</option>
+                <option value="latvija">Latvija</option>
+                <option value="Estija">Estija</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Pasirinkite mėgstamą sportą</legend>
+            <div>
+                <input type="checkbox" id="krepsinis" name="krepsinis"/>
+                <label for="krepsinis">Krepšinis</label>
+            </div>
+            <div>
+                <input type="checkbox" id="futbolas" name="futbolas"/>
+                <label for="futbolas">Futbolas</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <label for="adresas">Įveskite savo adresą</label>
+            <textarea id="adresas" name="adresas" rows="5"
+            cols="30"></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>

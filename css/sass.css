@@ -1,0 +1,21 @@
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  align-items: center;
+} 
+#cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  gap: 5px;
+}
+#cont img {
+  width: 25vw;
+}
+#cont img:not(:hover) {
+  filter: brightness(25%);
+}/*# sourceMappingURL=sass.css.map */

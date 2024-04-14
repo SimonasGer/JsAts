@@ -1,0 +1,48 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+
+.c1{
+    background-color: brown;
+}
+.c2{
+    background-color: green;
+}
+.c3{
+    background-color: blue;
+}
+.c4{
+    background-color: yellow;
+}
+.c5{
+    background-color: red;
+}
+
+@media (max-width: 600px){
+    .c1{
+        width: 50%;
+        height: 100px;
+        float: left;
+    }
+    .c2{
+        width: 50%;
+        height: 100px;
+        float: right;
+    }
+    .c3{
+        width: 33.33%;
+        height: 100px;
+        float: left;
+    }
+    .c4{
+        width: 33.33%;
+        height: 100px;
+        float: left;
+    }
+    .c5{
+        width: 33.33%;
+        height: 100px;
+        float: right;
+    }
+}

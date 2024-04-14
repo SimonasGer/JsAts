@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="vardas">Įveskite vardą</label>
+            <input type="text" name="vardas" id="vardas"/>
+        </fieldset>
+        <fieldset>
+            <label for="pavarde">Įveskite pavardę</label>
+            <input type="text" name="pavarde" id="pavarde"/>
+        </fieldset>
+        <fieldset>
+            <label for="email">Įveskite el. pašto adresą</label>
+            <input type="text" name="email" id="email"/>
+        </fieldset>
+
+        <fieldset>
+            <label for="vardas">Įveskite savo adresą</label><br>
+            <input type="text" name="adresas" id="gatve" placeholder="gatvė"/><br>
+            <input type="text" name="adresas" id="namoNr" placeholder="namo numeris"/><br>
+            <select name="spalvos" id="spalvos-select">
+                <option value="">Pasirinkite miestą</option>
+                <option value="vilnius">Vilnius</option>
+                <option value="kaunas">Kaunas</option>
+                <option value="klaipeda">Klaipėda</option>
+
+            </select>
+
+        </fieldset>
+            <legend>Pasirinkite mėgstamiausią spalvą</legend>
+
+                <input type="radio" id="kortele" name="mokejimas" value="K"/>
+                <label for="kortele">Kortelė</label>
+
+                <input type="radio" id="bankas" name="mokejimas" value="B"/>
+                <label for="bankas">Bankas</label>
+
+        <fieldset>
+        <fieldset>
+            <legend>Pasirinkite Dovanas</legend>
+            <div>
+                <input type="checkbox" id="puodelis" name="puodelis"/>
+                <label for="puodelis">Puodelis</label>
+            </div>
+            <div>
+                <input type="checkbox" id="kuponas" name="kuponas"/>
+                <label for="kuponas">Kuponas</label>
+            </div>
+            <div>
+                <input type="checkbox" id="salikas" name="salikas"/>
+                <label for="salikas">Šalikas</label>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

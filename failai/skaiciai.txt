@@ -1,0 +1,10 @@
+Vartotojas ivede skaiciu 100
+1 spejimu vartotojas ivede 80 sugeneruoutas skaicius didesnis uz spejima.
+2 spejimu vartotojas ivede 86 
+2 spejimu atspejote skaiciu
+Zaidimas zaidete 1 kartu
+Vartotojas ivede skaiciu 100
+1 spejimu vartotojas ivede 50 sugeneruoutas skaicius mazesnis uz spejima.
+2 spejimu vartotojas ivede 48 
+2 spejimu atspejote skaiciu
+Zaidziate dar karta
